@@ -39,7 +39,7 @@ Additional command arguments:
     
 
 Windows Info: system information
-vol3 -f VMram.raw windows.info.Info
+# vol3 -f VMram.raw windows.info.Info
 
 PsList: Lists process IDs and parent process IDs
 
