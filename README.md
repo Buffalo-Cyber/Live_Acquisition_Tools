@@ -18,6 +18,9 @@ https://www.magnetforensics.com/resources/magnet-ram-capture/
 Volatility3
 https://github.com/volatilityfoundation/volatility3
 
+REMnux
+https://remnux.org/
+
 -----
 -----
 SANS Memory Forensics Cheat Sheet 3.0
