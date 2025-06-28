@@ -1,18 +1,18 @@
 # ILEA-2025-Memory-Capture-Analysis
 
-AVML
+AVML (Linux)
 https://github.com/microsoft/avml
 
-Belkasoft Live Ram Capture
+Belkasoft Live Ram Capture (Win)
 https://belkasoft.com/ram-capturer
 
-Cederpelta
+Cederpelta (Mac/Linux)
 https://www.brimorlabsblog.com/2019/04/live-response-collection-cedarpelta.html
 
-FTK
+FTK (Win)
 https://www.exterro.com/digital-forensics-software/ftk-imager
 
-Magnet Ram Capture
+Magnet Ram Capture (Win)
 https://www.magnetforensics.com/resources/magnet-ram-capture/
 
 Volatility3
