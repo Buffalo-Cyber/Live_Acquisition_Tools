@@ -9,7 +9,7 @@ https://belkasoft.com/ram-capturer
 Cederpelta (Mac/Linux)
 https://www.brimorlabsblog.com/2019/04/live-response-collection-cedarpelta.html
 
-FTK (Win)
+FTK Imager (Win)
 https://www.exterro.com/digital-forensics-software/ftk-imager
 
 Magnet Ram Capture (Win)
