@@ -15,6 +15,9 @@ https://www.exterro.com/digital-forensics-software/ftk-imager
 Magnet Ram Capture (Win)
 https://www.magnetforensics.com/resources/magnet-ram-capture/
 
+Oracle VirtualBox
+https://www.virtualbox.org/
+
 REMnux
 https://remnux.org/
 
@@ -31,7 +34,7 @@ https://sansorg.egnyte.com/dl/4QwNVeoj02
 Memory Capture Workflow with Volatility3 using a REMnux Virtual Machine
 
 Additional command arguments:
->vol3 -q -r pretty -f WIN10.mem windows.netscan.NetScan > NetScan.txt
+> vol3 -q -r pretty -f WIN10.mem windows.netscan.NetScan > NetScan.txt
 >> (-q = run without status bar)
 >> 
 >> (-f = use the folling memory filescan)
@@ -50,3 +53,22 @@ PsList: Lists process IDs and parent process IDs (faster than psscan, can miss h
 PsScan: Lists process IDs and parent process IDs (slower than pslist, finds hidden processes)
 > vol3 -f VMram.raw windows.psscan.PsScan
 
+DllList: Lists all loaded dlls (review legitimate dlls, and possible malicious, review locations "temp"
+> vol3 -f VMram.raw windows.dlllist.DllList
+
+CmdLine: lists process and command line arguments (may be able to link a process ID/connection IP to an .exe)
+> vol3 -f VMram.raw windows.cmdline.CmdLine
+
+NetStat: reviews network info for connections, ports, and PID (fast, may miss hidden)
+> vol3 -f VMram.raw windows.netstat.NetStat
+
+NetScan: reviews network info for connections, ports, and PID (slower, may find hidden)
+> vol3 -f VMram.raw windows.netscan.NetScan
+
+FileScan: scans memory for file objects present
+> vol3 -f VMram.raw windows.filescan.FileScan
+
+HiveList: lists all available registry hives in memory
+> vol3 -f VMram.raw windows.registry.hivelist.HiveList
+
+Strings: search for string values in memory
