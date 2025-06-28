@@ -44,5 +44,9 @@ Additional command arguments:
 Windows Info: system information
 > vol3 -f VMram.raw windows.info.Info
 
-PsList: Lists process IDs and parent process IDs
+PsList: Lists process IDs and parent process IDs (faster than psscan, can miss hidden processes)
+> vol3 -f VMram.raw windows.pslist.PsList
+
+PsScan: Lists process IDs and parent process IDs (slower than pslist, finds hidden processes)
+> vol3 -f VMram.raw windows.psscan.PsScan
 
