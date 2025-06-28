@@ -35,7 +35,9 @@ Additional command arguments:
 >> (-q = run without status bar)
 >> 
 >> (-f = use the folling memory filescan)
+>> 
 >> (-r pretty = renders the text lined up in each column)
+>> 
 >> (>= output to file name fm-tetris.netscan.txt)
     
 
