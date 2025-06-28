@@ -72,3 +72,7 @@ HiveList: lists all available registry hives in memory
 > vol3 -f Win10.raw windows.registry.hivelist.HiveList
 
 Strings: search for string values in memory
+> strings Win10.raw | grep -i copyright
+>> grep = search for the following
+>> -i = ingnore case
+
