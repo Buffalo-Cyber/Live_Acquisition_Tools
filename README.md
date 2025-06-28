@@ -17,3 +17,10 @@ https://www.magnetforensics.com/resources/magnet-ram-capture/
 
 Volatility3
 https://github.com/volatilityfoundation/volatility3
+
+-----
+Memory Capture Analysis
+https://sansorg.egnyte.com/dl/4QwNVeoj02
+
+-----
+Memory Capture Workflow with Volatility3
