@@ -29,6 +29,7 @@ https://sansorg.egnyte.com/dl/4QwNVeoj02
 -----
 -----
 Memory Capture Workflow with Volatility3 using a REMnux Virtual Machine
+
   Additional command arguments:
     vol3 -q -r pretty -f WIN10.mem windows.netscan.NetScan > NetScan.txt
       -q = run without status bar
