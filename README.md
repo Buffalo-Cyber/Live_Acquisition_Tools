@@ -53,7 +53,7 @@ PsList: Lists process IDs and parent process IDs (faster than psscan, can miss h
 PsScan: Lists process IDs and parent process IDs (slower than pslist, finds hidden processes)
 > vol3 -f Win10.raw windows.psscan.PsScan
 
-DllList: Lists all loaded dlls (review legitimate dlls, and possible malicious, review locations "temp"
+DllList: Lists all loaded dlls (review legitimate dlls, and possible malicious, review locations "temp")
 > vol3 -f Win10.raw windows.dlllist.DllList
 
 CmdLine: lists process and command line arguments (may be able to link a process ID/connection IP to an .exe)
